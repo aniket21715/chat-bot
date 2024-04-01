@@ -6,7 +6,7 @@ import openai
 app = Flask(__name__)
 CORS(app)  # Allow all origins for CORS
 
-openai.api_key = "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"  # Set the OpenAI API key
+openai.api_key = "your key"  # Set the OpenAI API key
 
 chat_completion = ChatCompletion()
 
